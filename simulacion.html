@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Simulación: Hormigas</title>
+    <link rel="stylesheet" href="simulacion.css">
+</head>
+<body>
+    <center><h2>Simulador Web: Búsqueda de Alimento ,Odometría y fermonas </h2>
+    <div class="controles">
+        <p><strong>Nido:</strong> Azul | <strong>Comida:</strong> Verde | <strong>Hormigas:</strong> Negras (Punto verde si tienen comida)</p>
+        <div class="estadisticas">
+            Comida recolectada en el nido: <span id="contadorComida" class="contador-numero">0</span>
+        </div>
+        <button onclick="iniciarSimulacion()">Reiniciar Simulación</button>
+        <button id="btnPausa" onclick="togglePausa()">Pausar Simulación</button>
+    </div>
+    <br>
+    <canvas id="lienzo" width="700" height="400"></canvas>
+
+<script src="simulacion.js"></script>
+</center>
