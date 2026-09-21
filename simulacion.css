@@ -1,0 +1,39 @@
+body { 
+    font-family: Arial, sans-serif; 
+    text-align: center;
+    background-color: #fcfc88dd;
+ }
+
+canvas { 
+    
+    border: 2px solid #333;
+    background-color: #fefe7c;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+ }
+ .controles { 
+
+    margin: 15px;
+    padding: 15px; 
+    background: #dfd4d4; 
+    border-radius: 8px; 
+    display: inline-block;
+}
+.estadisticas { 
+    font-size: 1.2em;
+    color: #25013a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contador-numero { 
+
+    font-weight: bold;
+     color: #27ae60; 
+     font-size: 1.4em; 
+}
+button { 
+
+    padding: 8px 15px; 
+    font-size: 1em;
+    cursor: pointer;
+    margin: 0 5px; 
+ }
